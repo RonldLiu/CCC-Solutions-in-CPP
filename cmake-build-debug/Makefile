@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 20s2
+
+# Build rule for target.
+20s2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20s2
+.PHONY : 20s2
+
+# fast build rule for target.
+20s2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/build
+.PHONY : 20s2/fast
+
+#=============================================================================
 # Target rules for targets named 20s1
 
 # Build rule for target.
@@ -157,19 +170,6 @@ depend:
 .PHONY : 13s4/fast
 
 #=============================================================================
-# Target rules for targets named CCC
-
-# Build rule for target.
-CCC: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CCC
-.PHONY : CCC
-
-# fast build rule for target.
-CCC/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CCC.dir/build.make CMakeFiles/CCC.dir/build
-.PHONY : CCC/fast
-
-#=============================================================================
 # Target rules for targets named 01s3
 
 # Build rule for target.
@@ -181,6 +181,19 @@ CCC/fast:
 01s3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/build
 .PHONY : 01s3/fast
+
+#=============================================================================
+# Target rules for targets named CCC
+
+# Build rule for target.
+CCC: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CCC
+.PHONY : CCC
+
+# fast build rule for target.
+CCC/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CCC.dir/build.make CMakeFiles/CCC.dir/build
+.PHONY : CCC/fast
 
 01s3.o: 01s3.cpp.o
 
@@ -263,6 +276,33 @@ CCC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/20s1.cpp.s
 .PHONY : 20s1.cpp.s
 
+20s2.o: 20s2.cpp.o
+
+.PHONY : 20s2.o
+
+# target to build an object file
+20s2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20s2.cpp.o
+.PHONY : 20s2.cpp.o
+
+20s2.i: 20s2.cpp.i
+
+.PHONY : 20s2.i
+
+# target to preprocess a source file
+20s2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20s2.cpp.i
+.PHONY : 20s2.cpp.i
+
+20s2.s: 20s2.cpp.s
+
+.PHONY : 20s2.s
+
+# target to generate assembly for a file
+20s2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20s2.cpp.s
+.PHONY : 20s2.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -301,6 +341,7 @@ help:
 	@echo "... 01s3"
 	@echo "... 13s4"
 	@echo "... 20s1"
+	@echo "... 20s2"
 	@echo "... CCC"
 	@echo "... 01s3.o"
 	@echo "... 01s3.i"
@@ -311,6 +352,9 @@ help:
 	@echo "... 20s1.o"
 	@echo "... 20s1.i"
 	@echo "... 20s1.s"
+	@echo "... 20s2.o"
+	@echo "... 20s2.i"
+	@echo "... 20s2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
