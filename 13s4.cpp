@@ -2,14 +2,12 @@
 
 using namespace std;
 
-int n, m, f, s;
+int n, m, student1, student2;
 vector<int> record[1000005];
 
 bool isTaller(int f, int s){
     if(f==s) return true;
-    for(int i = 0; i < record[f].size(); i++){
-        if(isTaller(record[f].at(i),s)) return true;
-    }
+    for(int i = 0; i < record[f].size(); i++) if(isTaller(record[f].at(i),s)) return true;
     return false;
 }
 
@@ -21,9 +19,9 @@ int main(){
         cin >> a >> b;
         record[a].push_back(b);
     }
-    cin >> f >> s;
-    if(isTaller(f,s)) cout << "yes";
-    else if(isTaller(s,f)) cout << "no";
+    cin >> student1 >> student2;
+    if(isTaller(student1, student2)) cout << "yes";
+    else if(isTaller(student2, student1)) cout << "no";
     else cout << "unknown";
     return 0;
 }
