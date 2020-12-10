@@ -2,25 +2,24 @@
 
 using namespace std;
 
-int t, n;
+int t;
 
-bool isPrime(int n) {
-    for(int i = 2; i*i <= n; i++) if (n % i == 0) return false;
+bool isPrime(int num) {
+    for(int i = 2; i*i <= num; i++) if (num % i == 0) return false;
     return true;
+}
+
+string solve(int num){
+    for(int j = 2; j < num; j++) if(isPrime(j)&&isPrime(num-j)) return to_string(j) + " " + to_string(num-j) + "\n";
 }
 
 int main(){
     ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     cin >> t;
     for (int i = 0; i < t; i++) {
+        int n;
         cin >> n;
-        n*=2;
-        for(int j = 2; j < n; j++){
-            if(isPrime(j)&&isPrime(n-j)){
-                cout << j << " " << n-j << endl;
-                break;
-            }
-        }
+        cout << solve(n*2);
     }
     return 0;
 }
