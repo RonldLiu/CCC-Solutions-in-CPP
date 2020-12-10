@@ -77,27 +77,27 @@ include CMakeFiles/20s2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/20s2.dir/flags.make
 
-CMakeFiles/20s2.dir/20s2.cpp.o: CMakeFiles/20s2.dir/flags.make
-CMakeFiles/20s2.dir/20s2.cpp.o: ../20s2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/20s2.dir/20s2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/20s2.dir/20s2.cpp.o -c /Users/ronaldliu/CLionProjects/CCC/20s2.cpp
+CMakeFiles/20s2.dir/20/20s2.cpp.o: CMakeFiles/20s2.dir/flags.make
+CMakeFiles/20s2.dir/20/20s2.cpp.o: ../20/20s2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/20s2.dir/20/20s2.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/20s2.dir/20/20s2.cpp.o -c /Users/ronaldliu/CLionProjects/CCC/20/20s2.cpp
 
-CMakeFiles/20s2.dir/20s2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/20s2.dir/20s2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ronaldliu/CLionProjects/CCC/20s2.cpp > CMakeFiles/20s2.dir/20s2.cpp.i
+CMakeFiles/20s2.dir/20/20s2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/20s2.dir/20/20s2.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ronaldliu/CLionProjects/CCC/20/20s2.cpp > CMakeFiles/20s2.dir/20/20s2.cpp.i
 
-CMakeFiles/20s2.dir/20s2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/20s2.dir/20s2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ronaldliu/CLionProjects/CCC/20s2.cpp -o CMakeFiles/20s2.dir/20s2.cpp.s
+CMakeFiles/20s2.dir/20/20s2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/20s2.dir/20/20s2.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ronaldliu/CLionProjects/CCC/20/20s2.cpp -o CMakeFiles/20s2.dir/20/20s2.cpp.s
 
 # Object files for target 20s2
 20s2_OBJECTS = \
-"CMakeFiles/20s2.dir/20s2.cpp.o"
+"CMakeFiles/20s2.dir/20/20s2.cpp.o"
 
 # External object files for target 20s2
 20s2_EXTERNAL_OBJECTS =
 
-20s2: CMakeFiles/20s2.dir/20s2.cpp.o
+20s2: CMakeFiles/20s2.dir/20/20s2.cpp.o
 20s2: CMakeFiles/20s2.dir/build.make
 20s2: CMakeFiles/20s2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 20s2"

@@ -157,6 +157,19 @@ depend:
 .PHONY : 20s1/fast
 
 #=============================================================================
+# Target rules for targets named 19s2
+
+# Build rule for target.
+19s2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 19s2
+.PHONY : 19s2
+
+# fast build rule for target.
+19s2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s2.dir/build.make CMakeFiles/19s2.dir/build
+.PHONY : 19s2/fast
+
+#=============================================================================
 # Target rules for targets named 13s4
 
 # Build rule for target.
@@ -195,113 +208,140 @@ CCC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CCC.dir/build.make CMakeFiles/CCC.dir/build
 .PHONY : CCC/fast
 
-01s3.o: 01s3.cpp.o
+01/01s3.o: 01/01s3.cpp.o
 
-.PHONY : 01s3.o
-
-# target to build an object file
-01s3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/01s3.cpp.o
-.PHONY : 01s3.cpp.o
-
-01s3.i: 01s3.cpp.i
-
-.PHONY : 01s3.i
-
-# target to preprocess a source file
-01s3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/01s3.cpp.i
-.PHONY : 01s3.cpp.i
-
-01s3.s: 01s3.cpp.s
-
-.PHONY : 01s3.s
-
-# target to generate assembly for a file
-01s3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/01s3.cpp.s
-.PHONY : 01s3.cpp.s
-
-13s4.o: 13s4.cpp.o
-
-.PHONY : 13s4.o
+.PHONY : 01/01s3.o
 
 # target to build an object file
-13s4.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13s4.dir/build.make CMakeFiles/13s4.dir/13s4.cpp.o
-.PHONY : 13s4.cpp.o
+01/01s3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/01/01s3.cpp.o
+.PHONY : 01/01s3.cpp.o
 
-13s4.i: 13s4.cpp.i
+01/01s3.i: 01/01s3.cpp.i
 
-.PHONY : 13s4.i
+.PHONY : 01/01s3.i
 
 # target to preprocess a source file
-13s4.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13s4.dir/build.make CMakeFiles/13s4.dir/13s4.cpp.i
-.PHONY : 13s4.cpp.i
+01/01s3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/01/01s3.cpp.i
+.PHONY : 01/01s3.cpp.i
 
-13s4.s: 13s4.cpp.s
+01/01s3.s: 01/01s3.cpp.s
 
-.PHONY : 13s4.s
+.PHONY : 01/01s3.s
 
 # target to generate assembly for a file
-13s4.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/13s4.dir/build.make CMakeFiles/13s4.dir/13s4.cpp.s
-.PHONY : 13s4.cpp.s
+01/01s3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/01/01s3.cpp.s
+.PHONY : 01/01s3.cpp.s
 
-20s1.o: 20s1.cpp.o
+13/13s4.o: 13/13s4.cpp.o
 
-.PHONY : 20s1.o
+.PHONY : 13/13s4.o
 
 # target to build an object file
-20s1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/20s1.cpp.o
-.PHONY : 20s1.cpp.o
+13/13s4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13s4.dir/build.make CMakeFiles/13s4.dir/13/13s4.cpp.o
+.PHONY : 13/13s4.cpp.o
 
-20s1.i: 20s1.cpp.i
+13/13s4.i: 13/13s4.cpp.i
 
-.PHONY : 20s1.i
+.PHONY : 13/13s4.i
 
 # target to preprocess a source file
-20s1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/20s1.cpp.i
-.PHONY : 20s1.cpp.i
+13/13s4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13s4.dir/build.make CMakeFiles/13s4.dir/13/13s4.cpp.i
+.PHONY : 13/13s4.cpp.i
 
-20s1.s: 20s1.cpp.s
+13/13s4.s: 13/13s4.cpp.s
 
-.PHONY : 20s1.s
+.PHONY : 13/13s4.s
 
 # target to generate assembly for a file
-20s1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/20s1.cpp.s
-.PHONY : 20s1.cpp.s
+13/13s4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/13s4.dir/build.make CMakeFiles/13s4.dir/13/13s4.cpp.s
+.PHONY : 13/13s4.cpp.s
 
-20s2.o: 20s2.cpp.o
+19/19s2.o: 19/19s2.cpp.o
 
-.PHONY : 20s2.o
+.PHONY : 19/19s2.o
 
 # target to build an object file
-20s2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20s2.cpp.o
-.PHONY : 20s2.cpp.o
+19/19s2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s2.dir/build.make CMakeFiles/19s2.dir/19/19s2.cpp.o
+.PHONY : 19/19s2.cpp.o
 
-20s2.i: 20s2.cpp.i
+19/19s2.i: 19/19s2.cpp.i
 
-.PHONY : 20s2.i
+.PHONY : 19/19s2.i
 
 # target to preprocess a source file
-20s2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20s2.cpp.i
-.PHONY : 20s2.cpp.i
+19/19s2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s2.dir/build.make CMakeFiles/19s2.dir/19/19s2.cpp.i
+.PHONY : 19/19s2.cpp.i
 
-20s2.s: 20s2.cpp.s
+19/19s2.s: 19/19s2.cpp.s
 
-.PHONY : 20s2.s
+.PHONY : 19/19s2.s
 
 # target to generate assembly for a file
-20s2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20s2.cpp.s
-.PHONY : 20s2.cpp.s
+19/19s2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s2.dir/build.make CMakeFiles/19s2.dir/19/19s2.cpp.s
+.PHONY : 19/19s2.cpp.s
+
+20/20s1.o: 20/20s1.cpp.o
+
+.PHONY : 20/20s1.o
+
+# target to build an object file
+20/20s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/20/20s1.cpp.o
+.PHONY : 20/20s1.cpp.o
+
+20/20s1.i: 20/20s1.cpp.i
+
+.PHONY : 20/20s1.i
+
+# target to preprocess a source file
+20/20s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/20/20s1.cpp.i
+.PHONY : 20/20s1.cpp.i
+
+20/20s1.s: 20/20s1.cpp.s
+
+.PHONY : 20/20s1.s
+
+# target to generate assembly for a file
+20/20s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/20/20s1.cpp.s
+.PHONY : 20/20s1.cpp.s
+
+20/20s2.o: 20/20s2.cpp.o
+
+.PHONY : 20/20s2.o
+
+# target to build an object file
+20/20s2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20/20s2.cpp.o
+.PHONY : 20/20s2.cpp.o
+
+20/20s2.i: 20/20s2.cpp.i
+
+.PHONY : 20/20s2.i
+
+# target to preprocess a source file
+20/20s2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20/20s2.cpp.i
+.PHONY : 20/20s2.cpp.i
+
+20/20s2.s: 20/20s2.cpp.s
+
+.PHONY : 20/20s2.s
+
+# target to generate assembly for a file
+20/20s2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20/20s2.cpp.s
+.PHONY : 20/20s2.cpp.s
 
 main.o: main.cpp.o
 
@@ -340,21 +380,25 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 01s3"
 	@echo "... 13s4"
+	@echo "... 19s2"
 	@echo "... 20s1"
 	@echo "... 20s2"
 	@echo "... CCC"
-	@echo "... 01s3.o"
-	@echo "... 01s3.i"
-	@echo "... 01s3.s"
-	@echo "... 13s4.o"
-	@echo "... 13s4.i"
-	@echo "... 13s4.s"
-	@echo "... 20s1.o"
-	@echo "... 20s1.i"
-	@echo "... 20s1.s"
-	@echo "... 20s2.o"
-	@echo "... 20s2.i"
-	@echo "... 20s2.s"
+	@echo "... 01/01s3.o"
+	@echo "... 01/01s3.i"
+	@echo "... 01/01s3.s"
+	@echo "... 13/13s4.o"
+	@echo "... 13/13s4.i"
+	@echo "... 13/13s4.s"
+	@echo "... 19/19s2.o"
+	@echo "... 19/19s2.i"
+	@echo "... 19/19s2.s"
+	@echo "... 20/20s1.o"
+	@echo "... 20/20s1.i"
+	@echo "... 20/20s1.s"
+	@echo "... 20/20s2.o"
+	@echo "... 20/20s2.i"
+	@echo "... 20/20s2.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

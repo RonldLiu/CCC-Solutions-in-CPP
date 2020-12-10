@@ -75,6 +75,7 @@ CMAKE_BINARY_DIR = /Users/ronaldliu/CLionProjects/CCC/cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/20s2.dir/all
 all: CMakeFiles/20s1.dir/all
+all: CMakeFiles/19s2.dir/all
 all: CMakeFiles/13s4.dir/all
 all: CMakeFiles/01s3.dir/all
 all: CMakeFiles/CCC.dir/all
@@ -89,6 +90,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/20s2.dir/clean
 clean: CMakeFiles/20s1.dir/clean
+clean: CMakeFiles/19s2.dir/clean
 clean: CMakeFiles/13s4.dir/clean
 clean: CMakeFiles/01s3.dir/clean
 clean: CMakeFiles/CCC.dir/clean
@@ -102,7 +104,7 @@ clean: CMakeFiles/CCC.dir/clean
 CMakeFiles/20s2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 20s2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target 20s2"
 .PHONY : CMakeFiles/20s2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -129,7 +131,7 @@ CMakeFiles/20s2.dir/clean:
 CMakeFiles/20s1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 20s1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 20s1"
 .PHONY : CMakeFiles/20s1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -148,6 +150,33 @@ CMakeFiles/20s1.dir/rule: cmake_check_build_system
 CMakeFiles/20s1.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/clean
 .PHONY : CMakeFiles/20s1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/19s2.dir
+
+# All Build rule for target.
+CMakeFiles/19s2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s2.dir/build.make CMakeFiles/19s2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s2.dir/build.make CMakeFiles/19s2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target 19s2"
+.PHONY : CMakeFiles/19s2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/19s2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/19s2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/19s2.dir/rule
+
+# Convenience name for target.
+19s2: CMakeFiles/19s2.dir/rule
+
+.PHONY : 19s2
+
+# clean rule for target.
+CMakeFiles/19s2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s2.dir/build.make CMakeFiles/19s2.dir/clean
+.PHONY : CMakeFiles/19s2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/13s4.dir
@@ -210,7 +239,7 @@ CMakeFiles/01s3.dir/clean:
 CMakeFiles/CCC.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CCC.dir/build.make CMakeFiles/CCC.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CCC.dir/build.make CMakeFiles/CCC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target CCC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target CCC"
 .PHONY : CMakeFiles/CCC.dir/all
 
 # Build rule for subdir invocation for target.
