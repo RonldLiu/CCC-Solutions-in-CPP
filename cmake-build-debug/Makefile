@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/ronaldliu/CLionProjects/CCC/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,17 +131,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 20s2
+# Target rules for targets named 01s1
 
 # Build rule for target.
-20s2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20s2
-.PHONY : 20s2
+01s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01s1
+.PHONY : 01s1
 
 # fast build rule for target.
-20s2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/build
-.PHONY : 20s2/fast
+01s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s1.dir/build.make CMakeFiles/01s1.dir/build
+.PHONY : 01s1/fast
+
+#=============================================================================
+# Target rules for targets named 01s3
+
+# Build rule for target.
+01s3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01s3
+.PHONY : 01s3
+
+# fast build rule for target.
+01s3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/build
+.PHONY : 01s3/fast
+
+#=============================================================================
+# Target rules for targets named 00s4
+
+# Build rule for target.
+00s4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 00s4
+.PHONY : 00s4
+
+# fast build rule for target.
+00s4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s4.dir/build.make CMakeFiles/00s4.dir/build
+.PHONY : 00s4/fast
+
+#=============================================================================
+# Target rules for targets named 00s2
+
+# Build rule for target.
+00s2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 00s2
+.PHONY : 00s2
+
+# fast build rule for target.
+00s2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s2.dir/build.make CMakeFiles/00s2.dir/build
+.PHONY : 00s2/fast
 
 #=============================================================================
 # Target rules for targets named 20s1
@@ -155,6 +194,32 @@ depend:
 20s1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s1.dir/build.make CMakeFiles/20s1.dir/build
 .PHONY : 20s1/fast
+
+#=============================================================================
+# Target rules for targets named 20s2
+
+# Build rule for target.
+20s2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20s2
+.PHONY : 20s2
+
+# fast build rule for target.
+20s2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/build
+.PHONY : 20s2/fast
+
+#=============================================================================
+# Target rules for targets named 00s1
+
+# Build rule for target.
+00s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 00s1
+.PHONY : 00s1
+
+# fast build rule for target.
+00s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s1.dir/build.make CMakeFiles/00s1.dir/build
+.PHONY : 00s1/fast
 
 #=============================================================================
 # Target rules for targets named 19s2
@@ -196,19 +261,6 @@ depend:
 .PHONY : 07s3/fast
 
 #=============================================================================
-# Target rules for targets named 01s3
-
-# Build rule for target.
-01s3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01s3
-.PHONY : 01s3
-
-# fast build rule for target.
-01s3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/build
-.PHONY : 01s3/fast
-
-#=============================================================================
 # Target rules for targets named CCC
 
 # Build rule for target.
@@ -220,6 +272,114 @@ CCC: cmake_check_build_system
 CCC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CCC.dir/build.make CMakeFiles/CCC.dir/build
 .PHONY : CCC/fast
+
+00/00s1.o: 00/00s1.cpp.o
+
+.PHONY : 00/00s1.o
+
+# target to build an object file
+00/00s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s1.dir/build.make CMakeFiles/00s1.dir/00/00s1.cpp.o
+.PHONY : 00/00s1.cpp.o
+
+00/00s1.i: 00/00s1.cpp.i
+
+.PHONY : 00/00s1.i
+
+# target to preprocess a source file
+00/00s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s1.dir/build.make CMakeFiles/00s1.dir/00/00s1.cpp.i
+.PHONY : 00/00s1.cpp.i
+
+00/00s1.s: 00/00s1.cpp.s
+
+.PHONY : 00/00s1.s
+
+# target to generate assembly for a file
+00/00s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s1.dir/build.make CMakeFiles/00s1.dir/00/00s1.cpp.s
+.PHONY : 00/00s1.cpp.s
+
+00/00s2.o: 00/00s2.cpp.o
+
+.PHONY : 00/00s2.o
+
+# target to build an object file
+00/00s2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s2.dir/build.make CMakeFiles/00s2.dir/00/00s2.cpp.o
+.PHONY : 00/00s2.cpp.o
+
+00/00s2.i: 00/00s2.cpp.i
+
+.PHONY : 00/00s2.i
+
+# target to preprocess a source file
+00/00s2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s2.dir/build.make CMakeFiles/00s2.dir/00/00s2.cpp.i
+.PHONY : 00/00s2.cpp.i
+
+00/00s2.s: 00/00s2.cpp.s
+
+.PHONY : 00/00s2.s
+
+# target to generate assembly for a file
+00/00s2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s2.dir/build.make CMakeFiles/00s2.dir/00/00s2.cpp.s
+.PHONY : 00/00s2.cpp.s
+
+00/00s4.o: 00/00s4.cpp.o
+
+.PHONY : 00/00s4.o
+
+# target to build an object file
+00/00s4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s4.dir/build.make CMakeFiles/00s4.dir/00/00s4.cpp.o
+.PHONY : 00/00s4.cpp.o
+
+00/00s4.i: 00/00s4.cpp.i
+
+.PHONY : 00/00s4.i
+
+# target to preprocess a source file
+00/00s4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s4.dir/build.make CMakeFiles/00s4.dir/00/00s4.cpp.i
+.PHONY : 00/00s4.cpp.i
+
+00/00s4.s: 00/00s4.cpp.s
+
+.PHONY : 00/00s4.s
+
+# target to generate assembly for a file
+00/00s4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s4.dir/build.make CMakeFiles/00s4.dir/00/00s4.cpp.s
+.PHONY : 00/00s4.cpp.s
+
+01/01s1.o: 01/01s1.cpp.o
+
+.PHONY : 01/01s1.o
+
+# target to build an object file
+01/01s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s1.dir/build.make CMakeFiles/01s1.dir/01/01s1.cpp.o
+.PHONY : 01/01s1.cpp.o
+
+01/01s1.i: 01/01s1.cpp.i
+
+.PHONY : 01/01s1.i
+
+# target to preprocess a source file
+01/01s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s1.dir/build.make CMakeFiles/01s1.dir/01/01s1.cpp.i
+.PHONY : 01/01s1.cpp.i
+
+01/01s1.s: 01/01s1.cpp.s
+
+.PHONY : 01/01s1.s
+
+# target to generate assembly for a file
+01/01s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s1.dir/build.make CMakeFiles/01s1.dir/01/01s1.cpp.s
+.PHONY : 01/01s1.cpp.s
 
 01/01s3.o: 01/01s3.cpp.o
 
@@ -418,6 +578,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 00s1"
+	@echo "... 00s2"
+	@echo "... 00s4"
+	@echo "... 01s1"
 	@echo "... 01s3"
 	@echo "... 07s3"
 	@echo "... 13s4"
@@ -425,6 +589,18 @@ help:
 	@echo "... 20s1"
 	@echo "... 20s2"
 	@echo "... CCC"
+	@echo "... 00/00s1.o"
+	@echo "... 00/00s1.i"
+	@echo "... 00/00s1.s"
+	@echo "... 00/00s2.o"
+	@echo "... 00/00s2.i"
+	@echo "... 00/00s2.s"
+	@echo "... 00/00s4.o"
+	@echo "... 00/00s4.i"
+	@echo "... 00/00s4.s"
+	@echo "... 01/01s1.o"
+	@echo "... 01/01s1.i"
+	@echo "... 01/01s1.s"
 	@echo "... 01/01s3.o"
 	@echo "... 01/01s3.i"
 	@echo "... 01/01s3.s"

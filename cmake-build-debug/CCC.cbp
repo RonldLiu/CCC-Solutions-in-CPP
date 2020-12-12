@@ -17,21 +17,211 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01s1">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/01s1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 01s1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01s1/fast">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/01s1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 01s1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01s3">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/01s3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 01s3"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01s3/fast">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/01s3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 01s3/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00s4">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/00s4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 00s4"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00s4/fast">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/00s4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 00s4/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00s2">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/00s2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 00s2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00s2/fast">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/00s2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 00s2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="20s1">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/20s1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 20s1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="20s1/fast">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/20s1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 20s1/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -77,28 +267,18 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="20s1">
-				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/20s1" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 20s1"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="20s1/fast">
-				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/20s1" prefix_auto="0" extension_auto="0"/>
+			<Target title="00s1">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/00s1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -111,7 +291,27 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 20s1/fast"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 00s1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="00s1/fast">
+				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/00s1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 00s1/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -237,46 +437,6 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="01s3">
-				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/01s3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 01s3"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="01s3/fast">
-				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/01s3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 01s3/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="CCC">
 				<Option output="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug/CCC" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ronaldliu/CLionProjects/CCC/cmake-build-debug"/>
@@ -318,6 +478,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/ronaldliu/CLionProjects/CCC/00/00s1.cpp">
+			<Option target="00s1"/>
+		</Unit>
+		<Unit filename="/Users/ronaldliu/CLionProjects/CCC/00/00s2.cpp">
+			<Option target="00s2"/>
+		</Unit>
+		<Unit filename="/Users/ronaldliu/CLionProjects/CCC/00/00s4.cpp">
+			<Option target="00s4"/>
+		</Unit>
+		<Unit filename="/Users/ronaldliu/CLionProjects/CCC/01/01s1.cpp">
+			<Option target="01s1"/>
+		</Unit>
 		<Unit filename="/Users/ronaldliu/CLionProjects/CCC/01/01s3.cpp">
 			<Option target="01s3"/>
 		</Unit>
