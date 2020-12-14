@@ -131,6 +131,110 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 96s1
+
+# Build rule for target.
+96s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 96s1
+.PHONY : 96s1
+
+# fast build rule for target.
+96s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/96s1.dir/build.make CMakeFiles/96s1.dir/build
+.PHONY : 96s1/fast
+
+#=============================================================================
+# Target rules for targets named 19s1
+
+# Build rule for target.
+19s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 19s1
+.PHONY : 19s1
+
+# fast build rule for target.
+19s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s1.dir/build.make CMakeFiles/19s1.dir/build
+.PHONY : 19s1/fast
+
+#=============================================================================
+# Target rules for targets named 18s1
+
+# Build rule for target.
+18s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 18s1
+.PHONY : 18s1
+
+# fast build rule for target.
+18s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18s1.dir/build.make CMakeFiles/18s1.dir/build
+.PHONY : 18s1/fast
+
+#=============================================================================
+# Target rules for targets named 15s1
+
+# Build rule for target.
+15s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15s1
+.PHONY : 15s1
+
+# fast build rule for target.
+15s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15s1.dir/build.make CMakeFiles/15s1.dir/build
+.PHONY : 15s1/fast
+
+#=============================================================================
+# Target rules for targets named 16s1
+
+# Build rule for target.
+16s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 16s1
+.PHONY : 16s1
+
+# fast build rule for target.
+16s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16s1.dir/build.make CMakeFiles/16s1.dir/build
+.PHONY : 16s1/fast
+
+#=============================================================================
+# Target rules for targets named 04s2
+
+# Build rule for target.
+04s2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 04s2
+.PHONY : 04s2
+
+# fast build rule for target.
+04s2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04s2.dir/build.make CMakeFiles/04s2.dir/build
+.PHONY : 04s2/fast
+
+#=============================================================================
+# Target rules for targets named 12s1
+
+# Build rule for target.
+12s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12s1
+.PHONY : 12s1
+
+# fast build rule for target.
+12s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12s1.dir/build.make CMakeFiles/12s1.dir/build
+.PHONY : 12s1/fast
+
+#=============================================================================
+# Target rules for targets named 03s1
+
+# Build rule for target.
+03s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03s1
+.PHONY : 03s1
+
+# fast build rule for target.
+03s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03s1.dir/build.make CMakeFiles/03s1.dir/build
+.PHONY : 03s1/fast
+
+#=============================================================================
 # Target rules for targets named 01s1
 
 # Build rule for target.
@@ -181,6 +285,19 @@ depend:
 00s2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/00s2.dir/build.make CMakeFiles/00s2.dir/build
 .PHONY : 00s2/fast
+
+#=============================================================================
+# Target rules for targets named 17s1
+
+# Build rule for target.
+17s1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 17s1
+.PHONY : 17s1
+
+# fast build rule for target.
+17s1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17s1.dir/build.make CMakeFiles/17s1.dir/build
+.PHONY : 17s1/fast
 
 #=============================================================================
 # Target rules for targets named 20s1
@@ -408,6 +525,60 @@ CCC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01s3.dir/build.make CMakeFiles/01s3.dir/01/01s3.cpp.s
 .PHONY : 01/01s3.cpp.s
 
+03/03s1.o: 03/03s1.cpp.o
+
+.PHONY : 03/03s1.o
+
+# target to build an object file
+03/03s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03s1.dir/build.make CMakeFiles/03s1.dir/03/03s1.cpp.o
+.PHONY : 03/03s1.cpp.o
+
+03/03s1.i: 03/03s1.cpp.i
+
+.PHONY : 03/03s1.i
+
+# target to preprocess a source file
+03/03s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03s1.dir/build.make CMakeFiles/03s1.dir/03/03s1.cpp.i
+.PHONY : 03/03s1.cpp.i
+
+03/03s1.s: 03/03s1.cpp.s
+
+.PHONY : 03/03s1.s
+
+# target to generate assembly for a file
+03/03s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/03s1.dir/build.make CMakeFiles/03s1.dir/03/03s1.cpp.s
+.PHONY : 03/03s1.cpp.s
+
+04/04s2.o: 04/04s2.cpp.o
+
+.PHONY : 04/04s2.o
+
+# target to build an object file
+04/04s2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04s2.dir/build.make CMakeFiles/04s2.dir/04/04s2.cpp.o
+.PHONY : 04/04s2.cpp.o
+
+04/04s2.i: 04/04s2.cpp.i
+
+.PHONY : 04/04s2.i
+
+# target to preprocess a source file
+04/04s2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04s2.dir/build.make CMakeFiles/04s2.dir/04/04s2.cpp.i
+.PHONY : 04/04s2.cpp.i
+
+04/04s2.s: 04/04s2.cpp.s
+
+.PHONY : 04/04s2.s
+
+# target to generate assembly for a file
+04/04s2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/04s2.dir/build.make CMakeFiles/04s2.dir/04/04s2.cpp.s
+.PHONY : 04/04s2.cpp.s
+
 07/07s3.o: 07/07s3.cpp.o
 
 .PHONY : 07/07s3.o
@@ -435,6 +606,33 @@ CCC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/07s3.dir/build.make CMakeFiles/07s3.dir/07/07s3.cpp.s
 .PHONY : 07/07s3.cpp.s
 
+12/12s1.o: 12/12s1.cpp.o
+
+.PHONY : 12/12s1.o
+
+# target to build an object file
+12/12s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12s1.dir/build.make CMakeFiles/12s1.dir/12/12s1.cpp.o
+.PHONY : 12/12s1.cpp.o
+
+12/12s1.i: 12/12s1.cpp.i
+
+.PHONY : 12/12s1.i
+
+# target to preprocess a source file
+12/12s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12s1.dir/build.make CMakeFiles/12s1.dir/12/12s1.cpp.i
+.PHONY : 12/12s1.cpp.i
+
+12/12s1.s: 12/12s1.cpp.s
+
+.PHONY : 12/12s1.s
+
+# target to generate assembly for a file
+12/12s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/12s1.dir/build.make CMakeFiles/12s1.dir/12/12s1.cpp.s
+.PHONY : 12/12s1.cpp.s
+
 13/13s4.o: 13/13s4.cpp.o
 
 .PHONY : 13/13s4.o
@@ -461,6 +659,141 @@ CCC/fast:
 13/13s4.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/13s4.dir/build.make CMakeFiles/13s4.dir/13/13s4.cpp.s
 .PHONY : 13/13s4.cpp.s
+
+15/15s1.o: 15/15s1.cpp.o
+
+.PHONY : 15/15s1.o
+
+# target to build an object file
+15/15s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15s1.dir/build.make CMakeFiles/15s1.dir/15/15s1.cpp.o
+.PHONY : 15/15s1.cpp.o
+
+15/15s1.i: 15/15s1.cpp.i
+
+.PHONY : 15/15s1.i
+
+# target to preprocess a source file
+15/15s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15s1.dir/build.make CMakeFiles/15s1.dir/15/15s1.cpp.i
+.PHONY : 15/15s1.cpp.i
+
+15/15s1.s: 15/15s1.cpp.s
+
+.PHONY : 15/15s1.s
+
+# target to generate assembly for a file
+15/15s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/15s1.dir/build.make CMakeFiles/15s1.dir/15/15s1.cpp.s
+.PHONY : 15/15s1.cpp.s
+
+16/16s1.o: 16/16s1.cpp.o
+
+.PHONY : 16/16s1.o
+
+# target to build an object file
+16/16s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16s1.dir/build.make CMakeFiles/16s1.dir/16/16s1.cpp.o
+.PHONY : 16/16s1.cpp.o
+
+16/16s1.i: 16/16s1.cpp.i
+
+.PHONY : 16/16s1.i
+
+# target to preprocess a source file
+16/16s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16s1.dir/build.make CMakeFiles/16s1.dir/16/16s1.cpp.i
+.PHONY : 16/16s1.cpp.i
+
+16/16s1.s: 16/16s1.cpp.s
+
+.PHONY : 16/16s1.s
+
+# target to generate assembly for a file
+16/16s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/16s1.dir/build.make CMakeFiles/16s1.dir/16/16s1.cpp.s
+.PHONY : 16/16s1.cpp.s
+
+17/17s1.o: 17/17s1.cpp.o
+
+.PHONY : 17/17s1.o
+
+# target to build an object file
+17/17s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17s1.dir/build.make CMakeFiles/17s1.dir/17/17s1.cpp.o
+.PHONY : 17/17s1.cpp.o
+
+17/17s1.i: 17/17s1.cpp.i
+
+.PHONY : 17/17s1.i
+
+# target to preprocess a source file
+17/17s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17s1.dir/build.make CMakeFiles/17s1.dir/17/17s1.cpp.i
+.PHONY : 17/17s1.cpp.i
+
+17/17s1.s: 17/17s1.cpp.s
+
+.PHONY : 17/17s1.s
+
+# target to generate assembly for a file
+17/17s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/17s1.dir/build.make CMakeFiles/17s1.dir/17/17s1.cpp.s
+.PHONY : 17/17s1.cpp.s
+
+18/18s1.o: 18/18s1.cpp.o
+
+.PHONY : 18/18s1.o
+
+# target to build an object file
+18/18s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18s1.dir/build.make CMakeFiles/18s1.dir/18/18s1.cpp.o
+.PHONY : 18/18s1.cpp.o
+
+18/18s1.i: 18/18s1.cpp.i
+
+.PHONY : 18/18s1.i
+
+# target to preprocess a source file
+18/18s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18s1.dir/build.make CMakeFiles/18s1.dir/18/18s1.cpp.i
+.PHONY : 18/18s1.cpp.i
+
+18/18s1.s: 18/18s1.cpp.s
+
+.PHONY : 18/18s1.s
+
+# target to generate assembly for a file
+18/18s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/18s1.dir/build.make CMakeFiles/18s1.dir/18/18s1.cpp.s
+.PHONY : 18/18s1.cpp.s
+
+19/19s1.o: 19/19s1.cpp.o
+
+.PHONY : 19/19s1.o
+
+# target to build an object file
+19/19s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s1.dir/build.make CMakeFiles/19s1.dir/19/19s1.cpp.o
+.PHONY : 19/19s1.cpp.o
+
+19/19s1.i: 19/19s1.cpp.i
+
+.PHONY : 19/19s1.i
+
+# target to preprocess a source file
+19/19s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s1.dir/build.make CMakeFiles/19s1.dir/19/19s1.cpp.i
+.PHONY : 19/19s1.cpp.i
+
+19/19s1.s: 19/19s1.cpp.s
+
+.PHONY : 19/19s1.s
+
+# target to generate assembly for a file
+19/19s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/19s1.dir/build.make CMakeFiles/19s1.dir/19/19s1.cpp.s
+.PHONY : 19/19s1.cpp.s
 
 19/19s2.o: 19/19s2.cpp.o
 
@@ -543,6 +876,33 @@ CCC/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/20s2.dir/build.make CMakeFiles/20s2.dir/20/20s2.cpp.s
 .PHONY : 20/20s2.cpp.s
 
+96/96s1.o: 96/96s1.cpp.o
+
+.PHONY : 96/96s1.o
+
+# target to build an object file
+96/96s1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/96s1.dir/build.make CMakeFiles/96s1.dir/96/96s1.cpp.o
+.PHONY : 96/96s1.cpp.o
+
+96/96s1.i: 96/96s1.cpp.i
+
+.PHONY : 96/96s1.i
+
+# target to preprocess a source file
+96/96s1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/96s1.dir/build.make CMakeFiles/96s1.dir/96/96s1.cpp.i
+.PHONY : 96/96s1.cpp.i
+
+96/96s1.s: 96/96s1.cpp.s
+
+.PHONY : 96/96s1.s
+
+# target to generate assembly for a file
+96/96s1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/96s1.dir/build.make CMakeFiles/96s1.dir/96/96s1.cpp.s
+.PHONY : 96/96s1.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -583,11 +943,20 @@ help:
 	@echo "... 00s4"
 	@echo "... 01s1"
 	@echo "... 01s3"
+	@echo "... 03s1"
+	@echo "... 04s2"
 	@echo "... 07s3"
+	@echo "... 12s1"
 	@echo "... 13s4"
+	@echo "... 15s1"
+	@echo "... 16s1"
+	@echo "... 17s1"
+	@echo "... 18s1"
+	@echo "... 19s1"
 	@echo "... 19s2"
 	@echo "... 20s1"
 	@echo "... 20s2"
+	@echo "... 96s1"
 	@echo "... CCC"
 	@echo "... 00/00s1.o"
 	@echo "... 00/00s1.i"
@@ -604,12 +973,36 @@ help:
 	@echo "... 01/01s3.o"
 	@echo "... 01/01s3.i"
 	@echo "... 01/01s3.s"
+	@echo "... 03/03s1.o"
+	@echo "... 03/03s1.i"
+	@echo "... 03/03s1.s"
+	@echo "... 04/04s2.o"
+	@echo "... 04/04s2.i"
+	@echo "... 04/04s2.s"
 	@echo "... 07/07s3.o"
 	@echo "... 07/07s3.i"
 	@echo "... 07/07s3.s"
+	@echo "... 12/12s1.o"
+	@echo "... 12/12s1.i"
+	@echo "... 12/12s1.s"
 	@echo "... 13/13s4.o"
 	@echo "... 13/13s4.i"
 	@echo "... 13/13s4.s"
+	@echo "... 15/15s1.o"
+	@echo "... 15/15s1.i"
+	@echo "... 15/15s1.s"
+	@echo "... 16/16s1.o"
+	@echo "... 16/16s1.i"
+	@echo "... 16/16s1.s"
+	@echo "... 17/17s1.o"
+	@echo "... 17/17s1.i"
+	@echo "... 17/17s1.s"
+	@echo "... 18/18s1.o"
+	@echo "... 18/18s1.i"
+	@echo "... 18/18s1.s"
+	@echo "... 19/19s1.o"
+	@echo "... 19/19s1.i"
+	@echo "... 19/19s1.s"
 	@echo "... 19/19s2.o"
 	@echo "... 19/19s2.i"
 	@echo "... 19/19s2.s"
@@ -619,6 +1012,9 @@ help:
 	@echo "... 20/20s2.o"
 	@echo "... 20/20s2.i"
 	@echo "... 20/20s2.s"
+	@echo "... 96/96s1.o"
+	@echo "... 96/96s1.i"
+	@echo "... 96/96s1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
